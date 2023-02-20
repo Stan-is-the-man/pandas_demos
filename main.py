@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 #
 # cars_models = {
 #     'cars': ["Subaru", "Seat", "Honda"],
@@ -82,11 +83,21 @@ import pandas as pd
 # print(myvar)
 #########################
 
-data = {
-    "calories": [420, 380, 390],
-    "duration": [50, 40, 45]
-}
+# data = {
+#     "calories": [420, 380, 390],
+#     "duration": [50, 40, 45]
+# }
+#
+# df = pd.DataFrame(data, index=[x for x in range(1, 4)])
+#
+# print(df)
+####################################
 
-df = pd.DataFrame(data, index=[x for x in range(1, 4)])
+class Car:
+    def __init__(domat, model, year):
+        domat.year = year
+        domat.model = model
 
-print(df)
+
+Suabru = Car('suabru', 2018)
+print(Suabru.year)
