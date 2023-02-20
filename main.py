@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 #
 # cars_models = {
 #     'cars': ["Subaru", "Seat", "Honda"],
@@ -93,11 +92,33 @@ import pandas as pd
 # print(df)
 ####################################
 
-class Car:
-    def __init__(domat, model, year):
-        domat.year = year
-        domat.model = model
+# class Car:
+#     '''This is my class'''
+#     def __init__(domat, model, year):
+#         domat.year = year
+#         domat.model = model
+#
+#
+# Suabru = Car('Subaru', 2018)
+# print(Suabru.year)
+# print(Car.__doc__)
+##########
 
+# data = {
+#     "calories": [420, 380, 390],
+#     "duration": [50, 40, 45]
+# }
+#
+# # load data into a DataFrame object:
+# df = pd.DataFrame(data)
+#
+# print(df)
+###########
 
-Suabru = Car('suabru', 2018)
-print(Suabru.year)
+cars = {
+    "Honda's HP": [120, 140, 160, 180],
+    'Seat HP': [150, 180, 200, 215],
+}
+
+table = pd.DataFrame(cars)
+print(table.loc[[0,3]])
