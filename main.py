@@ -142,11 +142,15 @@ from pandas import read_csv
 # pd.options.display.max_rows = 200
 # # print(table.head(10))
 # print(table.info())
-#
-# print(table.to_string())
+# #
+# print(table.loc[1])
+
 #
 # print(pd.options.display.max_rows)
 ###############################
 
-table = pd.read_json('data_js.js')
-print(table)
+# table = pd.read_json('data_js.js')
+# print(table)
+#######################
+
+
