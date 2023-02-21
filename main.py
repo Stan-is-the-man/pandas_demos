@@ -1,3 +1,4 @@
+
 import pandas as pd
 # from numpy import partition
 from pandas import read_csv
@@ -153,4 +154,23 @@ from pandas import read_csv
 # print(table)
 #######################
 
+# my_table = pd.read_csv('data.csv')
+# print(my_table.to_string())
+# new_table = my_table.dropna()
+# print(new_table.to_string())
+####################################
+
+# table = pd.read_csv('data.csv')
+# table.dropna(inplace=True)
+# print(table.to_string())
+#################################
+
+# table = pd.read_csv('data.csv')
+# table.fillna(300, inplace=True)
+# print(table.to_string())
+
+
+df = pd.read_csv('data.csv')
+df['Calories'].fillna(245, inplace=True)
+print(df.to_string())
 
