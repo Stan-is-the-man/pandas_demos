@@ -169,8 +169,17 @@ from pandas import read_csv
 # table.fillna(300, inplace=True)
 # print(table.to_string())
 
+#
+# df = pd.read_csv('data.csv')
+# df['Calories'].fillna(245, inplace=True)
+# print(df.to_string())
 
-df = pd.read_csv('data.csv')
-df['Calories'].fillna(245, inplace=True)
-print(df.to_string())
 
+#
+# df = pd.read_csv('data.csv')
+# df['Calories'].fillna(100, inplace=True)
+# print(df.to_string())
+
+a = {1,2,3}
+b={3 ,4, 5}
+print(a - b)
