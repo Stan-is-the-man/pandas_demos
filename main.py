@@ -1,7 +1,8 @@
-
 import pandas as pd
+
 # from numpy import partition
 from pandas import read_csv
+
 
 #
 # cars_models = {
@@ -186,5 +187,36 @@ from pandas import read_csv
 # b={3 ,4, 5}
 # print(a - b)
 #######################
- 
+
+# mydataset = {
+#   'cars': ["BMW", "Volvo", "Ford"],
+#   'passings': [3, 7, 2]
+# }
+#
+# myvar = pd.DataFrame(mydataset)
+# print(myvar)
+#
+#
+# def make_table(my_data):
+#     len_of_list = len(my_data['studenst'])
+#     index_range = [x for x in range(1, len_of_list + 1)]
+#     frame = pd.DataFrame(my_data, index=index_range)
+#     return frame
+#
+#
+# student_info = {
+#     'studenst': ['Stan', 'Elly', 'Yoan', 'Teddy'],
+#     'grades': [5.5, 6, 6, 6]
+# }
+# curent_table = make_table(student_info)
+# print(curent_table)
+# print()
+#
+# student_info2 = {
+#     'studenst': ['Stan', 'Elly', 'Yoan', 'Teddy'],
+#     'grades': [5, 5, 6, 6]
+# }
+# curent_table = make_table(student_info2)
+# print(curent_table)
+##############################
 
