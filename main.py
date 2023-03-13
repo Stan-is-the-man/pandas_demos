@@ -70,8 +70,7 @@ from pandas import read_csv
 #     for key, value in dict.items():
 #         count += 1
 #
-#     return count
-#
+#     return count#
 #
 #
 #
@@ -94,6 +93,7 @@ from pandas import read_csv
 # df = pd.DataFrame(data, index=[x for x in range(1, 4)])
 #
 # print(df)
+
 ####################################
 
 # class Car:
