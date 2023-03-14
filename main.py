@@ -227,7 +227,7 @@ from pandas import read_csv
 
 #Pandas - Cleaning Data
 
-df = pd.read_csv('data.csv')
-
-df.dropna()
-print(df.to_string())
+# df = pd.read_csv('data.csv')
+#
+# df.dropna()
+# print(df.to_string())
