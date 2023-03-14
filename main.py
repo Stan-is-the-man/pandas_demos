@@ -219,4 +219,15 @@ from pandas import read_csv
 # curent_table = make_table(student_info2)
 # print(curent_table)
 ##############################
+#
+# df = pd.read_csv('data.csv')
+# print(df.to_string())
+# print(pd.options.display.max_rows)
+#############################
 
+#Pandas - Cleaning Data
+
+df = pd.read_csv('data.csv')
+
+df.dropna()
+print(df.to_string())
