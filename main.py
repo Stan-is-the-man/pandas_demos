@@ -70,7 +70,8 @@ from pandas import read_csv
 #     for key, value in dict.items():
 #         count += 1
 #
-#     return count#
+#     return count
+#
 #
 #
 #
@@ -93,7 +94,6 @@ from pandas import read_csv
 # df = pd.DataFrame(data, index=[x for x in range(1, 4)])
 #
 # print(df)
-
 ####################################
 
 # class Car:
@@ -219,4 +219,15 @@ from pandas import read_csv
 # curent_table = make_table(student_info2)
 # print(curent_table)
 ##############################
+#
+# df = pd.read_csv('data.csv')
+# print(df.to_string())
+# print(pd.options.display.max_rows)
+#############################
 
+#Pandas - Cleaning Data
+
+df = pd.read_csv('data.csv')
+
+df.dropna()
+print(df.to_string())
