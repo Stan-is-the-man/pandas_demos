@@ -3,7 +3,6 @@ import pandas as pd
 # from numpy import partition
 from pandas import read_csv
 
-
 #
 # cars_models = {
 #     'cars': ["Subaru", "Seat", "Honda"],
@@ -225,9 +224,16 @@ from pandas import read_csv
 # print(pd.options.display.max_rows)
 #############################
 
-#Pandas - Cleaning Data
+# Pandas - Cleaning Data
+
+# df = pd.read_csv('data.csv')
+#
+# df.dropna()
+# print(df.to_string())
+
+
+import matplotlib.pyplot as plt
 
 df = pd.read_csv('data.csv')
-
-df.dropna()
-print(df.to_string())
+df.plot()
+plt.show()
